@@ -44,4 +44,4 @@ dacs:
 server:
   port :  ${CONECTOR_PORT:9002}
   servlet:
-    contextPath: /conector
+    contextPath: /
