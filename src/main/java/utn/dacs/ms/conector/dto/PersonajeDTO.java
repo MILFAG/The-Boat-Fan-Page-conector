@@ -21,9 +21,12 @@ public class PersonajeDTO {
     @JsonAlias("description")
     @JsonProperty("descripcion")
     String descripcion;
+    @JsonAlias("displayIcon")
+    @JsonProperty("imagenCara")
+    String imagenCara;
     @JsonAlias("bustPortrait")
-    @JsonProperty("retrato")
-    String imagen;
+    @JsonProperty("imagenCompleta")
+    String imagenCompleta;
     @JsonAlias("backgroundGradientColors")
     @JsonProperty("coloresGradiente")
     String[] coloresGradiente;
