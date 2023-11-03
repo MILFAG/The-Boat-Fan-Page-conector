@@ -12,7 +12,8 @@ import java.util.List;
 
 @FeignClient(
         name = "valorantApi",
-        url = "https://valorant-api.com/v1"
+        url ="${feign.client.config.apiClient.url}"
+        //https://valorant-api.com/v1
 )
 public interface ValorantApi {
 

@@ -30,8 +30,8 @@ feign:
         readTimeout: 60000
         loggerLevel: basic
       apiClient:
-        url: '${API_URL:https://jsonplaceholder.typicode.com}'
-       
+         url: '${API_URL:https://valorant-api.com/v1}'
+
 dacs:
   exceptions:
     code-prefix: 'DACS-CONECTOR'
@@ -44,4 +44,4 @@ dacs:
 server:
   port :  ${CONECTOR_PORT:9002}
   servlet:
-    contextPath: /
+    contextPath: /api-contenido
